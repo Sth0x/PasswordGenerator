@@ -1,2 +1,2 @@
 # PasswordGenerator
- Um site que gera senhas aleatórias com a ajuda de uma API
+ Interface simples que gera aleatoriamente senhas com o auxilio de uma API externa.
