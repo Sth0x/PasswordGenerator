@@ -10,7 +10,11 @@
     opacity: 1;
   }
 }
-
+body > main > span{
+  padding: 5px;
+  border: 3.5px solid #172753;
+}
+  
 *{
   margin: 0px;
   padding: 0px;
@@ -25,10 +29,10 @@ body{
   align-items: center;
   justify-content: center;
 
-  background-color: #ff0066;
+  background-color: #172753;
   opacity: 1;
-  background-image: radial-gradient(white 2px, transparent 2px), radial-gradient(white 2px, #ff0066 2px);
-  background-size: 80px 80px;
+  background-image: radial-gradient(rgb(255, 255, 255) 2px, transparent 2px), radial-gradient(white 2px, #172753 2px);
+  background-size:80px 80px;
   background-position: 0 0, 40px 40px;
 
   animation: fadeInAnimation ease 2s;
@@ -56,8 +60,8 @@ main > div {
 
 input {
   padding: 5px;
-  accent-color: #ff0066;
-  border-color: #ff0066 ;
+  accent-color: #172753;
+  border-color: #172753 ;
   outline: none;
   border-style: solid;
 }
@@ -74,13 +78,13 @@ input[type=range]{
 button {
   background-color: #ffffff;
   cursor: pointer;
-  color: #ff0066;
-  border-color: #ff0066;
+  color: #172753;
+  border-color: #172753;
   border-style: solid;
   padding: 5px;
   transition: 0.7s;
 }
 button:hover{
-  background-color: #ff0066;
+  background-color: #172753;
   color: white;
 }
